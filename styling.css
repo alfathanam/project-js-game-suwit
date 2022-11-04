@@ -1,0 +1,51 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+height: 100vh;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 3px solid #e8b680 ;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+
+}
+.title{
+    text-align: center;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.option {
+    margin: 10px 15px;
+    padding: 25px;
+    background-color: bisque;
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+   
+}
+
+.option:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(110%);
+}
